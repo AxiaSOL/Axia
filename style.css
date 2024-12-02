@@ -1,0 +1,13 @@
+#chat-box {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+#character-image {
+    width: 200px;
+    border-radius: 50%;
+}
+#response, #user-input {
+    margin: 20px 0;
+    width: 100%;
+}
