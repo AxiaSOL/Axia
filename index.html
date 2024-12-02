@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystique Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="chat-container">
+        <!-- Character Display -->
+        <div id="character-display">
+            <img src="https://i.imgur.com/DxiwGNk.jpeg" alt="Mystique AI" id="character-image">
+            <h1 id="character-name">Mystique</h1>
+            <p id="character-tagline">Your friendly virtual assistant</p>
+        </div>
+
+        <!-- Chat Interface -->
+        <div id="chat-box">
+            <div id="chat-history"></div>
+            <div id="input-container">
+                <textarea id="user-input" placeholder="Type your message here..."></textarea>
+                <button id="send-button" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
